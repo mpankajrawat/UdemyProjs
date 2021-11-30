@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SnapDealTest" > 
+  <test name="TestForChrome">
+  <parameter name ="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="method.landingPage"/>
+    </classes>
+  </test>
+  <test name="TestForFirefox">
+  <parameter name ="BrowserName" value="Firefox"/>
+    <classes>
+      <class name="method.landingPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

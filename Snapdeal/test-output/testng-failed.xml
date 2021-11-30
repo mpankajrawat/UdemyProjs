@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [SnapDealTest]" parallel="tests">
+  <parameter name="BrowserName" value="Firefox"/>
+  <test name="TestForChrome(failed)" parallel="tests" preserve-order="true">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="method.landingPage">
+        <methods>
+          <include name="addToCart"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+          <include name="getFinalPriceOfCart"/>
+          <include name="setFilterOnSearchResults"/>
+          <include name="getSearchElementsPriceAndSelect"/>
+          <include name="switchToTab"/>
+        </methods>
+      </class> <!-- method.landingPage -->
+    </classes>
+  </test> <!-- TestForChrome(failed) -->
+  <test name="TestForFirefox(failed)" parallel="tests" preserve-order="true">
+    <parameter name="BrowserName" value="Firefox"/>
+    <classes>
+      <class name="method.landingPage">
+        <methods>
+          <include name="addToCart"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+          <include name="getFinalPriceOfCart"/>
+          <include name="getSearchElementsPriceAndSelect"/>
+          <include name="switchToTab"/>
+        </methods>
+      </class> <!-- method.landingPage -->
+    </classes>
+  </test> <!-- TestForFirefox(failed) -->
+</suite> <!-- Failed suite [SnapDealTest] -->

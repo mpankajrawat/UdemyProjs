@@ -1,0 +1,10 @@
+package MavenJavaFramework.E2E;
+
+public class test12 {
+
+	
+	public void test1(){
+		System.out.print("This is parent class");
+	}
+
+}

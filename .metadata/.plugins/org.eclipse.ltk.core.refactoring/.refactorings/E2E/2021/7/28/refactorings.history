@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;E2E/src/test/java/resources&apos;&#x0D;&#x0A;- Original project: &apos;E2E&apos;&#x0D;&#x0A;- Destination element: &apos;E2E/src/test/java/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     MavenJavaFramework.E2E.base.java&#x0D;&#x0A;     baseData.properties&#x0D;&#x0A;- Update references to refactored element" description="Move elements" destination="/src\/test\/java&lt;resources" element1="src/test/java/MavenJavaFramework/E2E/baseData.properties" element2="/src\/test\/java&lt;MavenJavaFramework.E2E{base.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1625765933768" units="1" version="1.0"/>
+</session>

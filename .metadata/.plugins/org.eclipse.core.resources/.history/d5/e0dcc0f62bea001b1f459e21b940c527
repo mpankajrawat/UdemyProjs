@@ -1,0 +1,18 @@
+package MavenJavaFramework.E2E;
+
+public class test123 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String original = "My name is Pankaj";
+		String reverse = null;
+		String[] splited = original.split(" ");
+		int counter = splited.length - 1;
+		for(int i=counter;i>=0;i--) {
+			reverse = splited[i] + " " +reverse; 
+		}
+		System.out.print(reverse);
+
+	}
+
+}
